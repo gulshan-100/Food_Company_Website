@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - ABC Trading Company</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Additional styling for a more visually appealing page */
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-color);
+            line-height: 1.6;
+            background-color: var(--light-bg);
+        }
+
+        .products-header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .products-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        #products {
+            padding: 4rem 0;
+        }
+
+        #products h2 {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+        }
+
+        .card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: var(--transition);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            margin-bottom: 3rem;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            padding: 1.5rem;
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            color: var(--text-color);
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar-container"></div> <!-- This is where the navbar will be loaded -->
+
+    <header class="products-header">
+        <h1 class="display-4 text-center">Our Products</h1>
+    </header>
+
+    <section id="products" class="container py-5">
+        <h2>Our Products</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://cdn.leonardo.ai/users/0f1bbce7-0c5d-49e1-b06b-43b9a25dff39/generations/0715a17b-5b0e-40b3-97e2-88019bb0f472/Leonardo_Kino_XL_Rice_1.jpg" class="card-img-top" alt="Rice">
+                    <div class="card-body">
+                        <h5 class="card-title">Rice</h5>
+                        <p class="card-text">High-quality rice sourced from the best farms.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://cdn.leonardo.ai/users/0f1bbce7-0c5d-49e1-b06b-43b9a25dff39/generations/347fbe52-cdc9-43dc-abe9-9143a2c8a717/Leonardo_Kino_XL_Flour_3.jpg" class="card-img-top" alt="Wheat Flour">
+                    <div class="card-body">
+                        <h5 class="card-title">Wheat Flour</h5>
+                        <p class="card-text">Premium wheat flour perfect for all your baking needs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://cdn.leonardo.ai/users/0f1bbce7-0c5d-49e1-b06b-43b9a25dff39/generations/8d76e4ef-e5be-4ad3-a67a-6956343edc08/Leonardo_Kino_XL_pulses_3.jpg" class="card-img-top" alt="Pulses">
+                    <div class="card-body">
+                        <h5 class="card-title">Pulses</h5>
+                        <p class="card-text">A variety of pulses rich in protein and nutrients.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://cdn.leonardo.ai/users/0f1bbce7-0c5d-49e1-b06b-43b9a25dff39/generations/3162072a-2187-401d-a13b-fe8e272e1886/Leonardo_Kino_XL_kitchen_oil_in_bottle_and_in_polythene_3.jpg" class="card-img-top" alt="Oil">
+                    <div class="card-body">
+                        <h5 class="card-title">Oil</h5>
+                        <p class="card-text">High-quality oil for all your cooking needs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://cdn.leonardo.ai/users/0f1bbce7-0c5d-49e1-b06b-43b9a25dff39/generations/880d5b1e-80a0-4e42-83fb-6c8071760dca/Leonardo_Kino_XL_spices_3.jpg" class="card-img-top" alt="Spices">
+                    <div class="card-body">
+                        <h5 class="card-title">Spices</h5>
+                        <p class="card-text">A range of aromatic spices to enhance your dishes.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Copy footer from index.html -->
+</body>
+</html>
